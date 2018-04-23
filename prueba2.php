@@ -2,11 +2,12 @@
 	@include("menu.php");
 	@include("includes/head.php");
 	
-	echo "Este programa muestra la concatenacion de dos cadenas ";
-	$num1 = "Hola";
-	$num2 = "mundo";	
+	echo "Este programa muestra la concatenacion de tres cadenas ";
+	$var1 = "Hola";
+	$var2 = "mundo";	
+	$var3 = "!!";
 	echo "<br>";
-	echo "$num1 $num2";
+	echo "$var1 $var2 $var3";
 	
 	@include("includes/footer.php");
 ?>
