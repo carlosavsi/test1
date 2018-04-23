@@ -1,2 +1,4 @@
-</body>
-</html>
+<?php
+	echo "<br>";
+	echo "Footer";
+?>

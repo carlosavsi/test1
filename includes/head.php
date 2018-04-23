@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,4 +9,8 @@
   	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-
+-->
+<?php
+	echo "Header";
+	echo "<br>";
+?>
