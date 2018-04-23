@@ -1,6 +1,6 @@
 <?php
-	include("menu.php");
-	include("includes/head.php");
+	@include("menu.php");
+	@include("includes/head.php");
 	
 	echo "Este programa muestra la concatenacion de dos cadenas ";
 	$num1 = "Hola";
@@ -8,5 +8,5 @@
 	echo "<br>";
 	echo "$num1 $num2";
 	
-	include("includes/footer.php");
+	@include("includes/footer.php");
 ?>
