@@ -1,3 +1,7 @@
+<?php
+@include("includes/head.php");
+@include("includes/menu.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,9 +14,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Crushed|Fira+Sans" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
-<br>
+
 <center>
-<div class="well well-sm">
-	<span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span> Footer con Bootstrap
-</div>
+	<h3>Bienvenido <span class="label label-default">De nuevo</span></h3>
 </center>
+
+<?php
+@include("includes/footer.php");
+?>
