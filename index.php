@@ -1,24 +1,12 @@
 <?php
 @include("includes/head.php");
+@include("config.php");
+@include("includes/menu.php");
 ?>
-<div class="container">
-   <div class="row">
-      <div class="col-md-3">
-         <form action = "welcome.php" method = "POST">
-            <div class="form-group">
-               <label for="exampleInputEmail1">Usuario</label>
-               <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Usuario" name="user">
-            </div>
-            <div class="form-group">
-               <label for="exampleInputPassword1">Contraseña</label>
-               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name ="contra">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-         </form>
-      </div>
-   </div>
-</div>
-
+<center>
+   <img src="wel.png" class="img-responsive" alt="Responsive image">
+</center>
+</body>
 <?php
 @include("includes/footer.php");
 ?>

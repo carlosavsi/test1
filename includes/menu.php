@@ -10,9 +10,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:300|Crushed|Fira+Sans" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
-<br>
-<center>
-<div class="well well-sm">
-	<span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span> Footer con Bootstrap
-</div>
-</center>
+<body>
+	<ul class="nav nav-pills">
+		<li role="presentation" class="active"><a href="index.php">Inicio</a></li>
+		<li role="presentation"><a href="login.php">Log in</a></li>
+		<li role="presentation"><a href="inicio.php">Otra bienvenida</a></li>
+	</ul>
