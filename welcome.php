@@ -1,20 +1,22 @@
 <?php
-@include("config.php");
-@include("includes/head.php");
-@include("includes/menu.php");
+include("config.php");
+include("includes/head.php");
+include("includes/menu.php");
 
 $usuario = $_POST["user"];
 $contra = $_POST["contra"];
 
 if($usuario == "" && $contra == "")
 {
-	echo "<center>";
-	echo "<h2>";
-	echo '<div class="alert alert-warning" role="alert">';
-	echo "Ingrese usuario y contraseña";
-	echo "</div>";
-	echo "</h2>";
-	echo "</center>";
+	?>
+	<center>
+	<h2>
+	<div class="alert alert-warning" role="alert">
+	Ingrese usuario y contraseña
+	</div>
+	</h2>
+	</center>
+<?php
 }
 else
 {
@@ -26,23 +28,29 @@ else
 	{      
 		if (is_null($fila['Nombre']))
 		{
-			echo "<center>";
-			echo "Usuario y/o contraseña incorrectos";
-			echo '<div class="alert alert-danger" role="alert">';
-			echo "No se pudo iniciar sesion";
-			echo "</div>";
-			echo "</center>";
+			?>
+			<center>
+			Usuario y/o contraseña incorrectos
+			<div class="alert alert-danger" role="alert">
+			No se pudo iniciar sesion
+			</div>
+			</center>
+			<?php
 		}		
 		else
 		{
-			echo "<center>";
-			echo "<h2>";
+			?>
+			<center>
+			<h2>
+			<?php
 			echo "Bienvenido: " . $fila['Nombre'];
-			echo "</h2>";
-			echo '<div class="alert alert-success" role="alert">';
-			echo "Sesion iniciada correctamente!!";
-			echo "</div>";
-			echo "</center>";
+			?>
+			</h2>
+			<div class="alert alert-success" role="alert">
+			Sesión iniciada correctamente!!
+			</div>
+			</center>
+			<?php
 		}
 	} 
 }   

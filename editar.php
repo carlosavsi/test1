@@ -12,9 +12,9 @@
 </head>
 <body>
 	<?php
-	@include("config.php");
-	@include("includes/head.php");
-	@include("includes/menu.php");
+	include("config.php");
+	include("includes/head.php");
+	include("includes/menu.php");
 	?>
 
 	<div class="container">
@@ -53,5 +53,5 @@
 
 
 	<?php
-	@include("includes/footer.php");
+	include("includes/footer.php");
 	?>
