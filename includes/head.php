@@ -13,6 +13,6 @@
 <body background="bg.jpg">
 	<center>
 	<div class="page-header">
-		<h1>Header con Bootstrap</h1>		
-	</div>
+  <h1>Header con Bootstrap <small>Header mas pequeño <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> </small></h1>
+</div>
 </center>

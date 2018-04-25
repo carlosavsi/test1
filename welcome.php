@@ -18,8 +18,9 @@ if($usuario == "" && $contra == "")
 }
 else
 {
+
 	$sql->real_query("SELECT  `Nombre` FROM `usuarios` WHERE `Usuario` = '$usuario' and `Password` = '$contra'");
-	$resultado = $sql->use_result(); 
+	$resultado = $sql->use_result();
 
 	while ( $fila = $resultado->fetch_assoc())
 	{      
@@ -31,7 +32,7 @@ else
 			echo "No se pudo iniciar sesion";
 			echo "</div>";
 			echo "</center>";
-		}
+		}		
 		else
 		{
 			echo "<center>";
@@ -43,17 +44,15 @@ else
 			echo "</div>";
 			echo "</center>";
 		}
-	}
-}    
-?>
-<br>
-<center>
-</div>
-<br>
-<a class="btn btn-default" href="login.php" role="button">Reintentar</a>
+	} 
+}   
+	?>
+	<br>
+	<center>
+	</div>
+	<br>
+	<a class="btn btn-default" href="login.php" role="button">Reintentar</a>
 </center>
-
-
 <?php
 @include("includes/footer.php");
 ?>
