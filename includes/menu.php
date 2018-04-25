@@ -15,4 +15,6 @@
 		<li role="presentation" class="active"><a href="index.php">Inicio</a></li>
 		<li role="presentation"><a href="login.php">Log in</a></li>
 		<li role="presentation"><a href="inicio.php">Otra bienvenida</a></li>
+		<li role="presentation"><a href="registrar.php">Registrarse</a></li>
+		<li role="presentation"><a href="editar.php">Editar usuario</a></li>
 	</ul>
